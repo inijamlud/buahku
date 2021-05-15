@@ -4,7 +4,7 @@ data class FirebaseData(
     var jenis: String ="",
     var desc: String ="",
 
-    var namabuah: String ="",
+    var nama: String ="",
     var latin: String ="",
     var manfaat: String ="",
 
