@@ -5,8 +5,8 @@ data class FirebaseData(
     var desc: String ="",
 
     var nama: String ="",
-    var latin: String ="",
     var manfaat: String ="",
+    var latin: String ="",
 
     var uid: String =""
 )
