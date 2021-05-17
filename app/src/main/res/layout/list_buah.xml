@@ -15,7 +15,7 @@
         app:expansion_toggleOnClick="true">
 
         <TextView
-            android:id="@+id/titleJenis"
+            android:id="@+id/titleBuah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/googlesans_bold"
@@ -38,13 +38,15 @@
     <com.github.florent37.expansionpanel.ExpansionLayout
         android:id="@+id/expansionLayout"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+        android:layout_width="match_parent"
+        android:background="@color/abu">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10dp"
+            >
 
                 <TextView
                     android:id="@+id/latinname"
