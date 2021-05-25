@@ -12,6 +12,8 @@ class FireBaseAdapter(private val listDataku: ArrayList<FirebaseDataClassView>):
     inner class FirebaseViewHolder(myView: View):RecyclerView.ViewHolder(myView) {
         var tvJenis: TextView = myView.findViewById(R.id.titleJenis)
         var tvDesc: TextView = myView.findViewById(R.id.desc)
+
+
         lateinit var ref: DatabaseReference
     }
 
@@ -24,7 +26,10 @@ class FireBaseAdapter(private val listDataku: ArrayList<FirebaseDataClassView>):
         val dataku = listDataku[position]
         holder.tvJenis.text = dataku.jenis
         holder.tvDesc.text = dataku.desc
+
+
     }
+
 
     override fun getItemCount(): Int {
         return listDataku.size
